@@ -22,13 +22,5 @@ class MayController extends Controller
     ];
     return $customers[$id-1];
   }
-  function getName($id)
-  {
-    $customers =
-    [
-      ["Name" => 'Madamm' , "Surname" => "Ktd"],
-      ["Name" => 'Patty' , "Surname" => "Story"]
-    ];
-    return $customers[$id-1];
-  }
+
 }
